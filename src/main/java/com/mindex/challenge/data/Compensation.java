@@ -8,10 +8,13 @@ import java.util.Date;
  * com.mindex.challenge.data
  **/
 public class Compensation {
+
     private String employeeId;
     private float salary;
     private Date effectiveDate;
 
+    public Compensation(){
+    }
     public String getEmployeeId() {
         return employeeId;
     }
@@ -36,6 +39,5 @@ public class Compensation {
         this.effectiveDate = effectiveDate;
     }
 
-    public Compensation(){
-    }
+
 }
